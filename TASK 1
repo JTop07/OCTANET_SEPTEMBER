@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Landing Page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Fira+Sans&family=Oswald:wght@500&family=Poppins:wght@300&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        h1 {
+            font-family: "Barlow Semi Condensed", sans-serif;
+            font-size: 65px;
+            margin: 0;
+            margin-top: 70px;
+
+        }
+
+        ul.main {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-size: 22px;
+            margin-bottom: 70px;
+        }
+
+        li {
+            display: inline-block;
+            padding: 10px;
+            color: black;
+            text-decoration: none;
+        }
+
+        .main {
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        div {
+            padding: 0;
+            margin: 0;
+            float: left;
+
+        }
+
+        img {
+            height: 449.5px;
+        }
+
+        .between {
+            list-style-type: none;
+            /* margin-top: 550px; */
+            /* padding: 20px; */
+            text-align: center;
+            font-size: 60px;
+            margin-bottom: 50px;
+            padding-top: 490px;
+            padding-bottom: 40px;
+            background-color: #DFDFDD;
+            /* min-width: 300px; */
+            font-family: 'Oswald', sans-serif;
+            letter-spacing: 10px;
+        }
+
+        p {
+            text-align: center;
+
+        }
+
+        .first {
+            font-size: 35px;
+            font-family: 'Fira Sans', sans-serif;
+        }
+
+        footer {
+            text-align: center;
+            margin: 30px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 17px;
+        }
+        .intro{
+            font-size: 30px;
+            text-align: left;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>PREMIUM</h1>
+        <ul class="main">
+            <li>Home</li>
+            <li>Men</li>
+            <li>Women</li>
+            <li>Kids</li>
+            <li>About</li>
+        </ul>
+    </header>
+    <div class="image">
+        <img src="https://media.istockphoto.com/id/1257563298/photo/fashion-clothes-on-a-rack-in-a-light-background-indoors-place-for-text.jpg?s=170667a&w=0&k=20&c=noFFaO69jpEfc08V7Y0Th9Y10yQHzTYFNzkwo1esY9U="
+            alt="ERROR">
+    </div>
+    <div>
+        <img src="https://imgv3.fotor.com/images/blog-cover-image/How-to-Take-Pictures-of-Clothes-to-Sell-Online-in-2023-Fotor-Blog.jpg"
+            alt="ERROR">
+
+    </div>
+    <ul class="between">
+        <li>T-SHIRT</li>
+        <li>SHIRT</li>
+        <li>JEANS</li>
+        <li>JACKETS</li>
+    </ul>
+        <p class="first">
+            THIS IS A PREMIUM CLOTHING BRAND <br>
+            Follow us on Instagram @premium.in
+        </p>
+        <footer>
+        <ul class="end">
+            <li>Privacy Policy</li>
+            <li>Need Help</li>
+            <li>Customer Service</li>
+        </ul>
+        <p class="second">
+            Copyright &copy; 2023 All rights reserved.
+        </p>
+    </footer>
+</body>
+</html>
